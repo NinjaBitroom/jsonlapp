@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FAFAFA;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    background: #1F1F1F;
+    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #3F3F3F;
+    cursor: pointer;
+}
+
+button:active {
+    background: #1F1F1F;
+}
+
+textarea {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #1F1F1F;
+    background: #FAFAFA;
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+hr {
+    border: 1px solid #1F1F1F;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=file] {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #1F1F1F;
+    background: #FAFAFA;
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background: #212121;
+    color: #FAFAFA;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sessao {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.card {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    color: #212121;
+    padding: 20px;
+}
+
+.prompt {
+    background-color: #E8F5E9;
+    border: 1px solid #1B5E20;
+    color: #1B5E20;
+}
+
+.prompt:focus {
+    background-color: #C8E6C9;
+    outline: 1px solid #1B5E20;
+    box-shadow: 0 0 0 1px #1B5E20;
+}
+
+.completion {
+    background-color: #E3F2FD;
+    border: 1px solid #0D47A1;
+    color: #0D47A1;
+}
+
+.completion:focus {
+    background-color: #BBDEFB;
+    outline: 1px solid #0D47A1;
+    box-shadow: 0 0 0 1px #0D47A1;
+}
+
+#container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
